@@ -1,5 +1,6 @@
 // Imports
 @import 'intro';
+@import 'navbar';
 @import 'variables';
 
 // Configuraçõo da pagina
@@ -10,5 +11,5 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: $war-fonte;
 }
