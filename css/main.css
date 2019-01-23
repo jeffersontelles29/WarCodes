@@ -1,59 +1,41 @@
-.sct1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) header;
-  background-image-width: 100%;
-  background-image-height: 100vh;
-  background-image-overflow: hidden;
+.btn-custom {
+  background-color: #F8B500;
+  border: 1px solid #F8B500;
+  padding: 0.5rem 3rem;
 }
-.sct1 video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
+
+.navbar {
+  background-color: #1F2226 !important;
+}
+.navbar-brand {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #F8B500 !important;
+}
+
+.intro {
   width: 100%;
-  z-index: -1000;
-}
-.sct1 .content {
-  width: 50%;
-  margin: auto;
   height: 100vh;
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #FFF;
-  z-index: 1000;
 }
-.sct1 .content h1 {
+.intro h1 {
   font-family: "Kaushan Script", cursive;
-  font-size: 6rem;
+  font-size: 4rem;
+  font-weight: 700;
   margin-bottom: 2rem;
+  text-shadow: 1px 1px 3px #000000;
 }
-.sct1 .content h1 span {
-  color: #FFCB48;
-}
-.sct1 .content p {
-  width: 70%;
+.intro p {
+  font-size: 1rem;
   font-weight: 300;
 }
-
-.navbar-brand {
-  font-family: "Kaushan Script", cursive;
-  font-size: 1.4rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #FFCB48 !important;
-}
-.navbar .nav-link {
-  color: #FFF !important;
-}
-.navbar .nav-link:hover {
-  color: #FFCB48 !important;
-}
-
-.start {
-  color: #FFCB48 !important;
+.intro span {
+  color: #F8B500;
 }
 
 * {
@@ -63,7 +45,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*# sourceMappingURL=main.css.map */

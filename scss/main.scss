@@ -1,6 +1,9 @@
 // Imports
-@import 'intro';
-@import 'navbar';
+@import 'components/custom';
+@import 'components/navbar';
+
+@import 'layout/intro';
+
 @import 'variables';
 
 // Configuraçõo da pagina
@@ -11,6 +14,5 @@
 }
 
 body {
-  font-family: $war-fonte;
-  //overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

@@ -1,0 +1,8 @@
+@import '../variables';
+
+// Button Custom
+.btn-custom {
+  background-color: $w-color-custom;
+  border: 1px solid $w-color-custom;
+  padding: .5rem 3rem;
+}

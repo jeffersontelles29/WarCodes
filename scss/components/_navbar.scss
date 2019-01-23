@@ -1,0 +1,11 @@
+@import '../variables.scss';
+
+.navbar {
+  background-color: $w-color-base !important;
+  &-brand {
+    font-family: $w-fonte-custom;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: $w-color-custom !important;
+  }
+}
