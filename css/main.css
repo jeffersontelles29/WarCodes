@@ -1,45 +1,41 @@
 .sct1 {
-  width: 100%;
-  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) header;
+  background-image-width: 100%;
+  background-image-height: 100vh;
+  background-image-overflow: hidden;
+}
+.sct1 video {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
-}
-.sct1 .intro-text {
+  display: block;
   width: 100%;
+  z-index: -1000;
+}
+.sct1 .content {
+  width: 50%;
+  margin: auto;
   height: 100vh;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: #FFF;
+  z-index: 1000;
 }
-.sct1 .intro-text h1 {
+.sct1 .content h1 {
   font-family: "Kaushan Script", cursive;
-  font-size: 7rem;
-  font-weight: 700;
-  margin-bottom: 2.5rem;
+  font-size: 6rem;
+  margin-bottom: 2rem;
 }
-.sct1 .intro-text h1 span {
+.sct1 .content h1 span {
   color: #FFCB48;
 }
-.sct1 .intro-text p {
+.sct1 .content p {
   width: 70%;
-  font-size: 1rem;
-  font-weight: 200;
-}
-.sct1 .intro-text video {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -1000;
-  background-size: cover;
+  font-weight: 300;
 }
 
 .navbar-brand {
